@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ساعات كاجوال رجالية</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0B173D, #1E2A5A);
+      color: #FFD700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /* حركة العنوان لأعلى وأسفل بشكل ناعم */
+    .title-animate {
+      animation: float 3s ease-in-out infinite;
+      text-shadow: 0 0 15px #FFD700;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    .btn-gold {
+      background-color: #FFD700;
+      color: #0B173D;
+      font-weight: bold;
+      padding: 0.75rem 2rem;
+      border-radius: 0.75rem;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .btn-gold:hover {
+      background-color: #FFC107;
+    }
+
+    .zoom-hover:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+
+    .caption {
+      margin-top: 0.5rem;
+      font-size: 0.9rem;
+      color: #F5E58D;
+    }
+
+    .product-image {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      object-position: center;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="text-center py-16">
+    <h1 class="text-5xl md:text-6xl font-extrabold title-animate">
+      اكتشف ساعات الكاجوال الرجالية الأكثر أناقة
+    </h1>
+    <a href="https://wa.me/962799320861?text=مرحبًا،%20أرغب%20بالحصول%20على%20تفاصيل%20حول%20الساعات%20الرجالية." target="_blank" class="btn-gold mt-6 inline-block">
+      تسوق الآن
+    </a>
+  </header>
+
+  <section id="shop" class="max-w-6xl mx-auto mt-12 px-6">
+    <h3 class="text-3xl font-bold mb-10 text-center">تشكيلة الساعات</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div>
+        <img src="https://i.postimg.cc/kgnNb0WX/Screenshot-com-zzkko-edit.jpg"
+             alt="ساعة جلد بني"
+             class="rounded-lg shadow-lg zoom-hover product-image" />
+        <p class="caption">ساعة جلد كلاسيكية - بني داكن</p>
+      </div>
+      <div>
+        <img src="https://i.postimg.cc/TP1rknkz/Screenshot-com-zzkko-edit.jpg"
+             alt="ساعة جلد أسود"
+             class="rounded-lg shadow-lg zoom-hover product-image" />
+        <p class="caption">ساعة جلد أنيقة - أسود ملكي</p>
+      </div>
+      <div>
+        <img src="https://i.postimg.cc/rwQ1Cf9G/Screenshot-com-zzkko-edit.jpg"
+             alt="ساعة رياضية"
+             class="rounded-lg shadow-lg zoom-hover product-image" />
+        <p class="caption">ساعة كاجوال شبابية - رمادي معدني</p>
+      </div>
+      <div>
+        <img src="https://i.postimg.cc/kXNFDJ6p/Screenshot-com-zzkko-edit.jpg"
+             alt="ساعة فاخرة"
+             class="rounded-lg shadow-lg zoom-hover product-image" />
+        <p class="caption">ساعة فخمة - ذهبي وأسود</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center mt-20 py-10 text-[#F5E58D] text-sm">
+    &copy; 2025 جميع الحقوق محفوظة
+  </footer>
+
+</body>
+</html>
